@@ -1,0 +1,31 @@
+/* Primero decimos a QUIÉN le vamos a cambiar el estilo (Selector) */
+h1 {
+    /* Adentro de las llaves ponemos las reglas */
+    color: #FF5733; /* Le cambia el color al texto (podés usar nombres en inglés o códigos hex) */
+    text-align: center; /* Lo centra en la pantalla */
+    font-family: 'Arial', sans-serif; /* Le cambia la tipografía */
+    background-color: black; /* Le pone un fondo negro solo al título */
+    padding: 20px; /* Le da "aire" o espacio interno para que no quede pegado a los bordes */
+}
+
+/* Ahora agarramos todos los párrafos <p> */
+p {
+    color: blue;
+    font-size: 20px; /* Agranda el tamaño de la letra */
+}
+
+/* Seleccionamos la "caja" completa de la lista */
+ul {
+    background-color: #333333; /* Le ponemos un fondo gris oscuro a la caja */
+    padding: 30px; /* Le damos espacio interno para que los textos no toquen los bordes */
+    border-radius: 10px; /* Magia: le redondeamos las esquinas a la caja */
+    width: 300px; /* Le limitamos el ancho para que no ocupe toda la pantalla */
+}
+
+/* Seleccionamos cada "puntito" de la lista por separado */
+li {
+    color: white; /* Letra blanca para que resalte en el fondo oscuro */
+    font-size: 18px; /* Letra un poquito más grande */
+    margin-bottom: 10px; /* Le damos una separación hacia abajo entre cada renglón */
+    font-family: sans-serif; /* Cambiamos el tipo de letra */
+}
